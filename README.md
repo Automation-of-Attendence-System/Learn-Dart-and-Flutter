@@ -30,4 +30,49 @@ that's it...
 Step 4. You are ready to modify this default app and develope according to your desire...
 
 
+# How to push on github
+
+Step 1. Creating Repository from your github
+
+        ![image](https://github.com/Automation-of-Attendence-System/Learn-Dart-and-Flutter/assets/112231455/0d567f4f-d89d-4a4f-b98d-2cd0ecc13576)
+
+
+Step 2. Connect repository to your project
+
+
+Run into your terminal
+
+        git init
+        git add README.md
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/Automation-of-Attendence-System/faculty-app.git
+        git push -u origin main
+
+![image](https://github.com/Automation-of-Attendence-System/Learn-Dart-and-Flutter/assets/112231455/395012f9-4d80-43b4-b0fd-815b93645fcd)
+
+if you are getting suggestion or warning like this:
+![image](https://github.com/Automation-of-Attendence-System/Learn-Dart-and-Flutter/assets/112231455/f7c703a6-a855-4eb4-86fa-b6e615c1d60d)
+
+Configure branch:
+
+        git config --global init.defaultBranch main
+
+Ohk, github is connected to your project
+
+Step 3. Push on Github
+
+        1. Add all file to push (files in .gitignore will not push, it's not needed)
+
+                git add .
+        2. See git status whenever you stuck
+                git status
+        3. Commit
+                git commit -m "faculty app"
+        4. push
+                git push -u origin main 
+
+That's it, wooohooo!!! Done..
+
+
 
